@@ -1,0 +1,61 @@
+body {
+    background-color: turquoise;
+    /* disable scrolling */
+    position: fixed;
+    overflow-x: false;
+    overflow-y: false;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Card {
+    border: 3px solid green;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top:auto;
+    left:auto;
+  }
+  
+  
+  button {
+    background-color: red;
+    width: 96px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid yellow;
+    color: teal;
+    cursor: pointer;
+  }
+  
+  .menuBar {
+    border: 5 px outset red;
+    width: 100px;
+    height: 100vh;
+    background-color: hotpink;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .table {
+    border: 5 px outset red;
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    z-index: -1;
+  }
+  
+  .pile {
+    border: 10 px solid yellow;
+    width: 70px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+  }
+  
